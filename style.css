@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+nav {
+  width: 100%;
+  background: rgb(34, 112, 247);
+  box-shadow: 0px 6px 8px -8px black;
+}
+h1 {
+  font-size: 48px;
+  text-align: center;
+  padding-block: 1%;
+  color: white;
+}
+main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background: whitesmoke;
+}
+h2 {
+  padding-block: 1%;
+  text-align: center;
+  font-size: 28px;
+  color: rgb(57, 57, 57);
+}
+.form {
+  width: 40%;
+  padding-inline: 5%;
+}
+input {
+  width: 70%;
+  padding: 2%;
+  font-size: 14px;
+}
+button {
+  width: 120px;
+  padding-block: 2.2%;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background: rgb(34, 112, 247);
+}
+.container {
+  width: 100%;
+  height: auto;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cards {
+  width: 14%;
+  min-height: 55vh;
+  margin-top: 2%;
+  padding-inline: 1%;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background: rgb(3, 93, 247);
+  color: white;
+  border-radius: 10px;
+}
+.h3 {
+  font-weight: normal;
+}
+.h4 {
+  font-weight: normal;
+}
+.h5 {
+  font-size: 24px;
+}
+.h6 {
+  font-size: 20px;
+  font-weight: normal;
+}
+p {
+  width: 90%;
+  font-size: 20px;
+  font-style: italic;
+  text-align: end;
+}
+p span {
+  font-size: 15px;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+    padding-block: 3%;
+  }
+  h2 {
+    font-size: 18px;
+    padding-block: 3%;
+  }
+  .form {
+    width: 98%;
+  }
+  input {
+    width: 100%;
+  }
+  button {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .cards {
+    width: 75%;
+    padding-inline: 5%;
+  }
+  p{
+    padding-block: 4%;
+  }
+}
